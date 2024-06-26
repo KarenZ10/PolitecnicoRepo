@@ -7,7 +7,7 @@ pipeline {
             steps {
                 //Se clona el repositorio donde esta la aplicación que se ejecutará 
                 // para el envío de notificaciones, al igual que el dockerfile y el token
-                git url: "https://github.com/KarenZ10/PolitecnicoRepo.git", branch: "master"
+                git url: "https://github.com/KarenZ10/PolitecnicoRepo.git", branch: "main"
             }
         }        
         
