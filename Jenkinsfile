@@ -20,7 +20,7 @@ pipeline {
             }
         }
         
-        stage("Se ejecuta la aplicacion de python") {
+        stage("Se crea contenedor en el cual correra la imagen de docker") {
             steps {
                 script {
                     //Se crea el contenedor y se ejecuta de manera desatendida
